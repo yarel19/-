@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מהפכת ההכנסה שלך מתחילה כאן!</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 50px 20px;
+            margin-bottom: 30px;
+        }
+        .about-section {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 30px;
+        }
+        .testimonials {
+            background-color: #f8f9fa;
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        .cta-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1>מהפכת ההכנסה שלך מתחילה עכשיו!</h1>
+            <p>גלה את הסוד להכפלת ההכנסה שלך תוך חודשים ספורים</p>
+        </div>
+    </div>
+
+    <div class="container about-section">
+        <div>
+            <h2>מי אני</h2>
+            <p>יזם מנוסה שעזר למעל 500 לקוחות להגדיל את ההכנסות שלהם פי 3-5 בשנה האחרונה. עם ניסיון של יותר מ-10 שנים בעולם העסקים והשיווק הדיגיטלי.</p>
+        </div>
+        <img src="/api/placeholder/200/200" alt="תמונת פרופיל" class="profile-image">
+    </div>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>מה אני מציע</h2>
+            <p>אסטרטגיית מכירות ושיווק דיגיטלי מותאמת אישית שתצעיד את העסק שלך קדימה. מיקוד בהגדלת הכנסות, חשיפה ומכירות תוך זמן קצר.</p>
+        </div>
+    </div>
+
+    <div class="testimonials container">
+        <h2>המלצות מלקוחות</h2>
+        <p>"הכפלתי את ההכנסות שלי תוך 3 חודשים!" - ישראל כהן</p>
+        <p>"השירות שינה לי את העסק מהקצה אל הקצה" - שרה לוי</p>
+    </div>
+
+    <div class="container contact-form">
+        <h2>קבל אסטרטגיית מכירות בחינם</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="שם מלא" required>
+            <input type="tel" name="phone" placeholder="מספר טלפון" required>
+            <input type="email" name="email" placeholder="כתובת מייל" required>
+            <button type="submit" class="cta-button">שלח פרטים</button>
+        </form>
+    </div>
+</body>
+</html>
